@@ -2,7 +2,7 @@
   "name": "mpearl-beauty",
   "version": "1.0.0",
   "description": "MPearl Beauty Medspa Website",
-  "main": "index.html",
+  "main": "m2.html",
   "scripts": {
     "start": "serve .",
     "build": "echo 'No build step needed for static site'"
