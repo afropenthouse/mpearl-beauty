@@ -25,8 +25,9 @@ const Nav = () => {
         M'<span>Pearl</span> Health & Beauty
       </a>
       <ul className="nav-links">
-        <li><a href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services') }}>Services</a></li>
         <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about') }}>About</a></li>
+        <li><a href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services') }}>Services</a></li>
+        <li><a href="#products" onClick={(e) => { e.preventDefault(); scrollToSection('products') }}>Products</a></li>
         <li><a href="#testimonials" onClick={(e) => { e.preventDefault(); scrollToSection('testimonials') }}>Reviews</a></li>
         <li><a href="#booking" onClick={(e) => { e.preventDefault(); scrollToSection('booking') }}>Contact</a></li>
       </ul>

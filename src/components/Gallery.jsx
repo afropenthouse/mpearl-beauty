@@ -14,8 +14,8 @@ const Gallery = () => {
     },
     {
       id: 3,
-      src: "/3s.jpg",
-      alt: "M'pearl Beauty Service",
+      src: "/4s.jpg",
+      alt: "M'pearl Beauty Team",
       title: "Professional Care"
     }
   ]
@@ -24,10 +24,10 @@ const Gallery = () => {
     <section className="gallery" id="gallery">
       <div className="container">
         <div style={{textAlign:'center'}} className="fade-in">
-          <p className="section-label">✦ Our Work</p>
-          <h2 className="section-title">Treatment <em>Gallery</em></h2>
+          <p className="section-label">✦ Our Team</p>
+          <h2 className="section-title">Meet Our <em>Experts</em></h2>
           <p className="section-desc">
-            Discover the transformative results our clients achieve with our advanced beauty treatments
+            Discover the skilled professionals dedicated to your beauty and wellness journey
           </p>
         </div>
         

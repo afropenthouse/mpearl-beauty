@@ -7,6 +7,7 @@ import About from './components/About'
 import WhyChooseUs from './components/WhyChooseUs'
 import Testimonials from './components/Testimonials'
 import Gallery from './components/Gallery'
+import Products from './components/Products'
 import Booking from './components/Booking'
 import Footer from './components/Footer'
 
@@ -33,11 +34,10 @@ function App() {
       <Nav />
       <Hero />
       <Marquee />
-      <Services />
       <About />
-      <WhyChooseUs />
+      <Services />
+      <Products />
       <Testimonials />
-      <Gallery />
       <Booking />
       <Footer />
       <a href="https://wa.me/2347060991444" target="_blank" rel="noopener noreferrer" className="whatsapp-float">
