@@ -433,8 +433,14 @@ section { padding: 7rem 0; }
 /* ── PRODUCTS ── */
 .products { background: var(--cream); padding: 6rem 0; }
 .products-grid {
-  display: grid; grid-template-columns: repeat(2, 1fr);
+  display: grid; grid-template-columns: 1fr;
   gap: 2rem; margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 1024px) {
