@@ -30,6 +30,7 @@ const Hero = () => {
       </div>
       <div className="hero-right">
         <div className="hero-img-wrap">
+          <img src="/ccd.jpg" alt="M'pearl Beauty Medspa" className="hero-bg-image" />
           {/* Floral botanical SVG decoration */}
           <svg className="floral-bg" viewBox="0 0 500 700" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g stroke="#1a3320" strokeWidth="1.5">
@@ -68,7 +69,7 @@ const Hero = () => {
               <circle cx="450" cy="350" r="2" fill="#1a3320"/>
             </g>
           </svg>
-          <div className="hero-ornament">
+          {/* <div className="hero-ornament">
             <div className="hero-ornament-inner">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="rgba(255,255,255,0.7)" strokeWidth="1">
                 <circle cx="20" cy="20" r="18"/>
@@ -78,7 +79,7 @@ const Hero = () => {
                 M'pearl<br/>Health & Beauty
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="hero-stat hero-stat-1">
             <div className="stat-num">500+</div>
             <div className="stat-label">Happy Clients</div>

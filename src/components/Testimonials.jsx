@@ -4,19 +4,22 @@ const Testimonials = () => {
       id: 1,
       text: "I've been coming here for 6 months and my skin has completely transformed. The team is so knowledgeable and makes you feel so comfortable throughout every treatment.",
       author: "Adaeze M.",
-      stars: "★★★★★"
+      stars: "★★★★★",
+      image: "/1s.jpg"
     },
     {
       id: 2,
       text: "MPearl is the only place I trust for my skincare. My chemical peel results were incredible — clearer skin in just a few sessions. Absolutely recommend!",
       author: "Funke O.",
-      stars: "★★★★★"
+      stars: "★★★★★",
+      image: "/2s.jpg"
     },
     {
       id: 3,
       text: "The atmosphere is so calming and luxurious. I came in for lash extensions and left feeling like a whole new woman. The attention to detail is unmatched.",
       author: "Chisom E.",
-      stars: "★★★★★"
+      stars: "★★★★★",
+      image: "/3s.jpg"
     }
   ]
 
@@ -30,7 +33,7 @@ const Testimonials = () => {
         <div className="testi-grid">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="testi-card fade-in">
-              <div className="testi-stars">{testimonial.stars}</div>
+                            <div className="testi-stars">{testimonial.stars}</div>
               <p className="testi-text">{testimonial.text}</p>
               <p className="testi-author">— {testimonial.author}</p>
             </div>

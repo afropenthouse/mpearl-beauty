@@ -21,10 +21,11 @@ const About = () => {
         <div className="about-grid">
           <div className="about-visual fade-in">
             <div className="about-img-main">
-              <div style={{position:'absolute', inset:0, display:'flex', alignItems:'center', justifyContent:'center'}}>
-                <div style={{textAlign:'center', color:'rgba(255,255,255,0.6)'}}>
-                  <p style={{fontFamily:'"Cormorant Garamond", serif', fontSize:'3rem', fontStyle:'italic', lineHeight:1}}>M</p>
-                  <p style={{fontSize:'0.65rem', letterSpacing:'0.3em', textTransform:'uppercase'}}>Pearl</p>
+              <img src="/3s.jpg" alt="M'pearl Beauty Medspa" style={{width:'100%', height:'100%', objectFit:'cover'}} />
+              <div style={{position:'absolute', inset:0, display:'flex', alignItems:'center', justifyContent:'center', background:'rgba(26,51,32,0.3)'}}>
+                <div style={{textAlign:'center', color:'rgba(255,255,255,0.8)'}}>
+                  <p style={{fontFamily:'"Cormorant Garamond", serif', fontSize:'3rem', fontStyle:'italic', lineHeight:1, textShadow:'0 2px 4px rgba(0,0,0,0.3)'}}>M</p>
+                  <p style={{fontSize:'0.65rem', letterSpacing:'0.3em', textTransform:'uppercase', textShadow:'0 1px 2px rgba(0,0,0,0.3)'}}>Pearl</p>
                 </div>
               </div>
             </div>

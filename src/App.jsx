@@ -6,6 +6,7 @@ import Services from './components/Services'
 import About from './components/About'
 import WhyChooseUs from './components/WhyChooseUs'
 import Testimonials from './components/Testimonials'
+import Gallery from './components/Gallery'
 import Booking from './components/Booking'
 import Footer from './components/Footer'
 
@@ -36,6 +37,7 @@ function App() {
       <About />
       <WhyChooseUs />
       <Testimonials />
+      <Gallery />
       <Booking />
       <Footer />
       <a href="https://wa.me/2347060991444" target="_blank" rel="noopener noreferrer" className="whatsapp-float">
