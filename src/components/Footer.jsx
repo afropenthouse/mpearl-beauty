@@ -7,11 +7,9 @@ const Footer = () => {
   }
 
   const services = [
-    "Facial Treatments",
-    "Microneedling",
-    "Chemical Peels", 
-    "Body Contouring",
-    "Laser Treatments"
+    "Advance Facials",
+    "Laser Treatments",
+    "Filler & Botox"
   ]
 
   const navigate = [
@@ -22,9 +20,8 @@ const Footer = () => {
   ]
 
   const hours = [
-    "Mon–Fri: 9am – 6pm",
-    "Saturday: 10am – 5pm",
-    "Sunday: Closed"
+    "Mon–Sat: 9am – 7pm",
+    "Sunday: 2pm – 7pm"
   ]
 
   return (
